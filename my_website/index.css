@@ -1,0 +1,67 @@
+a:link {
+	color:#00ff00;	
+	text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 200px;
+	border: 1px solid #e7e7e7;
+    background-color: #f1f1f1;
+}
+ul b {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 200px;
+	border: 1px solid #e7e7e7;
+    background-color: #f1f1f1;
+}
+ul li  b:active{
+	background-color: blue;
+	color: white;
+}
+ul li a{
+    display: block;
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li  a:active{
+	background-color: purple;
+	color: white;
+}
+ul li a:hover:not(.active){
+    background-color: purple;
+    color: #F0FFFF;
+}
+body {
+	font-family: "Futura", fantasy;
+	color: #ffffff;
+	background-color:SlateGray;
+	background-image: url("http://open-projects.net/~shahn/darcs/nikki-beta-branch/data/png/osd/background/1920x1080-background.png");
+	padding-left: 15px;
+}
+h1 {
+	font-size: 2.0em;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 3px 3px #000000;
+}
+
+h2 {
+	font-size: 1.75em;
+	font-style: normal;
+	text-align: left;
+	text-shadow: 2px 2px #000000;
+}
+p {	text-shadow: 1px 1px #000000;
+}
+
+table, th, td {
+	border: 7px solid black;
+	font-family: "Arial Black";
+	font-style: oblique;
+	border-collapse: collapse;
+}
