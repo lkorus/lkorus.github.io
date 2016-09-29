@@ -39,7 +39,7 @@ ul li a:hover:not(.active){
 body {
 	font-family: "Futura", fantasy;
 	color: #ffffff;
-	background-color:SlateGray;
+	background-color: SlateGray;
 	background-image: url("http://open-projects.net/~shahn/darcs/nikki-beta-branch/data/png/osd/background/1920x1080-background.png");
 	padding-left: 15px;
 }
