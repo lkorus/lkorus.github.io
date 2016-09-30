@@ -18,7 +18,7 @@ ul b {
 	border: 1px solid #e7e7e7;
     background-color: #f1f1f1;
 }
-ul li  b:active{
+ul li b:active{
 	background-color: blue;
 	color: white;
 }
@@ -28,7 +28,7 @@ ul li a{
     padding: 14px 16px;
     text-decoration: none;
 }
-ul li  a:active{
+ul li a:active{
 	background-color: purple;
 	color: white;
 }
